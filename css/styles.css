@@ -39,6 +39,7 @@ img{
     height: 30px;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
 }
 .emojis:active{
     transform: scale(0.9);
