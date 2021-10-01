@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.card_container{
+    width: 240px;
+    height: 340px;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(#D16BA5, #86A8E7, #5FFBF1);
+    border-radius: 10px;
+}
+
+.wish{
+    text-align: center;
+    font-size: 1.25rem;
+    color: #D16BA5;
+    font-family: 'Caudex', serif;
+}
+
+.emojis{
+    width: 80px;
+    height: 30px;
+    border: solid 0px;
+    border-radius: 10px;
+}
+.emojis:active{
+    transform: scale(0.9);
+}
