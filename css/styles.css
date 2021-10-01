@@ -9,6 +9,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #FAEEE0;
 }
 
 img{
@@ -36,9 +37,35 @@ img{
 .emojis{
     width: 80px;
     height: 30px;
-    border: solid 0px;
+    border: none;
     border-radius: 10px;
 }
 .emojis:active{
     transform: scale(0.9);
+}
+
+@media screen and (max-width: 450px) {
+    body{
+        background-color: #FAEEE0;
+    }
+
+    .card_container{
+        width: 300px;
+        height: 400px;
+    }
+
+    img{
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+    }
+
+    .wish{
+        font-size: 1.5rem;
+    }
+
+    .emojis{
+        width: 80px;
+        height: 30px;
+    }
 }
